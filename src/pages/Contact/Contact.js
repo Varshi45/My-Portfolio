@@ -4,6 +4,8 @@ import { useTheme } from "../../context/ThemeContext";
 import "./Contact.css";
 import { FaLinkedin, FaGithub, FaInstagram, FaMedium } from "react-icons/fa"; // Import FaMedium
 import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Contact = ({ sidebarToggle }) => {
   const containerClass = sidebarToggle ? "contact" : "contact-toggled";
@@ -28,9 +30,7 @@ const Contact = ({ sidebarToggle }) => {
     emailjs
       .send(serviceId, templateId, templateParams, publicKey)
       .then((response) => {
-        console.log("Email sent successfully!", response);
-        // Show alert when email is sent successfully
-        alert("Email sent successfully!");
+        toast.success("Email sent successfully!");
         setName("");
         setEmail("");
         setMessage("");
@@ -44,6 +44,9 @@ const Contact = ({ sidebarToggle }) => {
 
   return (
     <div id="contact" className={containerClass}>
+      <ToastContainer
+        theme={theme}
+      />
       <div className="row">
         <div className="col-md-6">
           <img
