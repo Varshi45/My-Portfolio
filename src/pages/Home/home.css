@@ -1,0 +1,141 @@
+/* home.css */
+
+.home-container {
+  height: 100vh;
+  margin: 3% 1% 0% 20%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  transition: margin 0.3s ease, height 0.3s ease, background-color 0.3s ease, color 0.3s ease; 
+}
+
+.home-container-toggled {
+  margin: 3% 1% 0% 7%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 90vh;
+  transition: margin 0.3s ease, height 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.home-content h1 {
+  color: #dc5f00;
+  transition: color 0.3s ease; 
+}
+
+.home-buttons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  margin-left: 5%;
+}
+
+.home-title {
+  margin-left: 5%;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-hire {
+  background-color: #dc5f00;
+  color: #ffffff;
+}
+
+.btn-hire:hover {
+  background-color: #a94c00;
+  color: #ffffff;
+}
+
+.btn-cv {
+  background-color: #0056b3;
+  color: #ffffff;
+}
+
+.btn-cv:hover {
+  background-color: #003874;
+  color: #ffffff;
+}
+
+.theme-btn {
+  background-color: #dc5f00;
+  color: #ffffff;
+  position: fixed;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 25% 0 0 25%;
+  z-index: 1;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.theme-btn:hover {
+  background-color: #a94c00;
+  transform: scale(1.1);
+}
+
+/* Dark mode styles */
+#dark .home-container, #dark .home-container-toggled {
+  background-color: #2a2a2a;
+  color: #eeeeee;
+  border: 1px solid #eeeeee;
+}
+
+#dark .home-content h2 {
+  color: #eeeeee;
+}
+
+#dark .home-content h1 {
+  color: #ff9d00;
+}
+
+#dark .btn-hire {
+  background-color: #ff9d00;
+  color: #2a2a2a;
+}
+
+#dark .btn-hire:hover {
+  background-color: #cc7a00;
+  color: #2a2a2a;
+}
+
+#dark .btn-cv {
+  background-color: #007acc;
+  color: #2a2a2a;
+}
+
+#dark .btn-cv:hover {
+  background-color: #005a99;
+  color: #2a2a2a;
+}
+
+#dark .theme-btn {
+  background-color: #ff9d00;
+  color: #2a2a2a;
+}
+
+#dark .theme-btn:hover {
+  background-color: #cc7a00;
+  transform: scale(1.1);
+}
+
+/* mobile view styles */
+
+@media (max-width: 650px) {
+  .home-container-toggled {
+    margin-top: 45px;
+  }
+  .home-container {
+    margin-top: 45px;
+  }
+}

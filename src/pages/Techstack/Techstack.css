@@ -1,0 +1,91 @@
+/* Techstack.css */
+
+.techstack {
+  margin: 2% 0 0 6%; 
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.techstack-toggled {
+  margin-top: 2%;
+  margin-left: 19%;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.techstack hr {
+  width: 100%;
+  color: #373a40;
+  margin: auto;
+}
+
+.techstack h2 {
+  font-family: cursive;
+  font-weight: bold;
+}
+
+.techstack-toggled h2 {
+  font-family: cursive;
+  font-weight: bold;
+}
+
+.techstack-icon {
+  font-size: 3rem;
+}
+
+.techstack p {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #373a40;
+}
+
+.techstack-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.techstack-card {
+  transition: all 0.3s ease;
+}
+
+/* Dark mode styles */
+#dark .techstack {
+  background-color: #2a2a2a;
+  color: #eeeeee;
+  border: 1px solid #eeeeee;
+}
+
+#dark .techstack-toggled {
+  margin-top: 2%;
+  margin-left: 19%;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  background-color: #2a2a2a;
+  padding: 20px;
+}
+
+#dark .techstack hr {
+  color: #eeeeee;
+}
+
+#dark .techstack p {
+  color: #eeeeee;
+}
+
+#dark .techstack-card {
+  background-color: #2a2a2a;
+  color: #eeeeee;
+  border: 1px solid #eeeeee;
+}
+
+#dark .techstack-card:hover {
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+}

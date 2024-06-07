@@ -1,0 +1,154 @@
+/* Projects.css */
+
+.projects {
+  margin: 3% 0 0 6%;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.projects-toggled {
+  margin-top: 3%;
+  margin-left: 19%;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.projects hr {
+  width: 100%;
+  color: #373a40;
+  margin: auto;
+}
+
+.projects h2 {
+  font-family: cursive;
+  font-weight: bold;
+}
+
+.projects-toggled h2 {
+  font-family: cursive;
+  font-weight: bold;
+}
+
+
+.projects p {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.project-card {
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.project-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.project-description {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.project-techstack .tech-badge {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.project-links {
+  margin-top: 1rem;
+}
+
+.btn-git {
+  background-color: #0056b3;
+  color: #ffffff;
+}
+
+.btn-git:hover {
+  background-color: #003874;
+  color: #ffffff;
+}
+
+.btn-link {
+  background-color: #dc5f00;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.btn-link:hover {
+  background-color: #a94c00;
+  color: #ffffff;
+}
+
+
+/* Dark mode styles */
+#dark .projects {
+  background-color: #2a2a2a;
+  color: #eeeeee;
+  border: 1px solid #eeeeee;
+}
+
+#dark .projects-toggled {
+  margin-top: 3%;
+  margin-left: 19%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #2a2a2a;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+#dark .projects hr {
+  color: #eeeeee;
+}
+
+#dark .project-card {
+  background-color: #2a2a2a;
+  color: #eeeeee;
+  border: 1px solid #eeeeee;
+}
+
+#dark .project-card:hover {
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+}
+
+#dark .project-title {
+  color: #ff9d00;
+}
+
+#dark .btn-link {
+  background-color: #ff9d00;
+  color: #2a2a2a;
+}
+
+#dark .btn-link:hover {
+  background-color: #cc7a00;
+  color: #2a2a2a;
+}
+
+#dark .btn-git {
+  background-color: #007acc;
+  color: #2a2a2a;
+}
+
+#dark .btn-git:hover {
+  background-color: #005a99;
+  color: #2a2a2a;
+}

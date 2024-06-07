@@ -1,0 +1,96 @@
+/* Education.css */
+
+:root {
+  --arrow-color-light: #373a40;
+  --arrow-color-dark: #eeeeee;
+}
+
+#dark {
+  --arrow-color: var(--arrow-color-dark);
+}
+
+#light {
+  --arrow-color: var(--arrow-color-light);
+}
+
+.education {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.education-content-toggled {
+  margin-top: 3%;
+  margin-left: 19%;
+  transition: all 0.3s ease;
+}
+
+.education-content {
+  transition: all 0.3s ease;
+  margin: 3% 0 0 6%;
+}
+
+.education hr {
+  width: 100%;
+  color: #373a40;
+  margin: auto;
+  transition: all 0.3s ease;
+}
+
+.education h2 {
+  font-family: cursive;
+  font-weight: bold;
+}
+
+.vertical-timeline-element-title {
+  font-size: 1.5rem;
+  color: #dc5f00;
+  margin-bottom: 1rem;
+}
+
+.vertical-timeline-element-subtitle {
+  font-size: 1rem;
+}
+
+/* Dark mode styles */
+#dark .education {
+  background-color: #2a2a2a;
+  color: #eeeeee;
+  transition: all 0.3s ease;
+  border: 1px solid #eeeeee;
+}
+
+#dark .education hr {
+  color: #eeeeee;
+  transition: all 0.3s ease;
+}
+
+#dark .vertical-timeline-element-title {
+  color: #ff9d00;
+  transition: all 0.3s ease;
+}
+
+#dark .vertical-timeline-element-subtitle {
+  color: #eeeeee;
+  transition: all 0.3s ease;
+}
+
+#dark .vertical-timeline-element--work .vertical-timeline-element-content {
+  background-color: #2a2a2a;
+  color: #eeeeee;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+  border: 1px solid #eeeeee;
+}
+
+#dark .vertical-timeline-element--work .vertical-timeline-element-content-arrow {
+  border-right: 7px solid var(--arrow-color-dark);
+  transition: all 0.3s ease;
+}
+
+#light .vertical-timeline-element--work .vertical-timeline-element-content-arrow {
+  border-right: 7px solid var(--arrow-color-light);
+  transition: all 0.3s ease;
+}

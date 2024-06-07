@@ -1,0 +1,56 @@
+:root {
+  --arrow-color-light: #373a40;
+  --arrow-color-dark: #eeeeee;
+}
+
+#dark {
+  --arrow-color: var(--arrow-color-dark);
+}
+
+#light {
+  --arrow-color: var(--arrow-color-light);
+}
+
+.work {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.work-content-toggled {
+  margin-top: 3%;
+  margin-left: 19%;
+  transition: all 0.3s ease;
+}
+
+.work-content {
+  transition: all 0.3s ease;
+  margin: 3% 0 0 6%;
+}
+
+.work hr {
+  width: 100%;
+  color: #373a40;
+  margin: auto;
+}
+
+.work h2 {
+  font-family: cursive;
+  font-weight: bold;
+}
+
+/* Dark mode styles */
+#dark .work {
+  background-color: #2a2a2a;
+  color: #eeeeee;
+  border: 1px solid #eeeeee;
+}
+
+#dark .work hr {
+  color: #eeeeee;
+}
+
+#dark .work-content-toggled {
+  margin-left: 19%;
+}

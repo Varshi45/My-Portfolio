@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+.name-title {
+  font-size: 6rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.name-container {
+  margin-top: 10%;
+  margin-bottom: 6%;
+}
+
+/* mobile view styles */
+@media (max-width: 650px) {
+  .name-title {
+    font-size: 4rem;
+  }
+}

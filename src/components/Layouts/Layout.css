@@ -1,0 +1,58 @@
+/* Layout.css */
+
+.sidebar-section {
+  display: flex;
+}
+
+.sidebar {
+  width: 5%;
+  background-color: #373a40;
+  padding: 10px;
+  height: 100vh;
+  position: fixed;
+  transition: width 0.3s ease;
+}
+
+.sidebar-toggle {
+  width: 18%;
+  transition: width 0.3s ease;
+}
+
+.sidebar-toggle-icons {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  color: whitesmoke;
+}
+
+.sidebar-toggle-icons span {
+  cursor: pointer;
+  background-color: #dc5f00;
+  width: 35px;
+  height: 35px;
+}
+
+.sidebar-toggle-icons span:hover {
+  background-color: #a94c00;
+  color: whitesmoke;
+}
+
+/* dark mode styles */
+#dark .sidebar-toggle-icons span {
+  cursor: pointer;
+  background-color: #ff9d00;
+  width: 35px;
+  height: 35px;
+}
+
+#dark .sidebar-toggle-icons span:hover {
+  background-color: #e3961b;
+  color: whitesmoke;
+}
+
+/* mobile view styles */
+@media (max-width: 650px) {
+  .sidebar {
+    display: none;
+  }
+}

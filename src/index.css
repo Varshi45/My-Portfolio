@@ -1,0 +1,17 @@
+/* index.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #EEEEEE;
+  /* color: #373A40; */
+}
+
+
+/* dark mode */
+
+#dark {
+  background-color: #1A1A1A;
+  color: #EEEEEE;
+}
