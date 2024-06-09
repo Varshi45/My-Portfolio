@@ -11,7 +11,7 @@ const About = ({ sidebarToggle }) => {
                 <h1> My-Self </h1>
                 <hr />
                 <p>
-                    I'm a passionate developer with a strong foundation in both front-end and back-end development. I leverage various frameworks and languages to create user-friendly, responsive websites while prioritizing user experience and efficiency. Additionally, I hold a great interest in Machine Learning and NLP, actively participating in projects utilizing these technologies.
+                    I'm a passionate developer with a strong foundation in both front-end and back-end development. I leverage various frameworks and languages to create user-friendly, responsive websites while prioritizing user experience and efficiency. Additionally, I have a great interest in Machine Learning and NLP, and I have experience participating in projects that utilize these technologies.
                     I am eager to contribute to team projects and continuously evolving as a developer in the dynamic field of web development. Let's build something amazing together!
                 </p>
             </div>
