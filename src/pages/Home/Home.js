@@ -35,6 +35,7 @@ const Home = ({ sidebar }) => {
             <Typewriter
               options={{
                 strings: [
+                  "Programmer!",
                   "Open Source Contributor!",
                   "FullStack Developer!",
                   "PERN Stack Developer!",
